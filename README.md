@@ -52,7 +52,7 @@ Se separa "nombreCompleto" en nombre y "segundoNombre" (si tiene)
 El campo correo se inicializa como cadena vacía, será generado por la clase GeneradorCorreo
 
 
-### ══════════════════════════════════════════════════════════════════════════════
+### ═══════════════════════════════════════════════════════════════════════
 
 
 
@@ -99,7 +99,7 @@ El campo correo se inicializa como cadena vacía, será generado por la clase Ge
 
 
 
-### ══════════════════════════════════════════════════════════════════════════════
+### ═══════════════════════════════════════════════════════════════════════
 
 
 
@@ -148,7 +148,7 @@ Verificaras que la libreria se importo correctamente
 
 
 
-### ══════════════════════════════════════════════════════════════════════════════
+### ═══════════════════════════════════════════════════════════════════════
 ### **┣▇ Capturas del JFrame mostrando el uso**
 
 Teniendo ahora el uso de una prueba de nuestro archivo **Proy_Final_LibreriaCorreos** se mostrara el funcionamiento de la libreria 

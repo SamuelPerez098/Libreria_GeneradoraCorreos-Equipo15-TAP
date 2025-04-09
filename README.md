@@ -165,7 +165,7 @@ Siguiendo la logica de la libreria se pueden crear hasta 3 correos diferentes si
 ![Image](https://github.com/user-attachments/assets/adbe8dcf-45ec-4bc0-a74c-a7ba5837cb16)
 
 
-### ══════════════════════════════════════════════════════════════════════════════
+### ═══════════════════════════════════════════════════════════════════════
 ### **┣▇ Video Explicativo**
 
 

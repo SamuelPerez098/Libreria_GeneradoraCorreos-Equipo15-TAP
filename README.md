@@ -168,6 +168,5 @@ Siguiendo la logica de la libreria se pueden crear hasta 3 correos diferentes si
 ### ═══════════════════════════════════════════════════════════════════════
 ### **┣▇ Video Explicativo**
 
-
-[Ver video en YouTube](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+[Ver video en YouTube](https://youtu.be/FWAfRlvCH7o)
 

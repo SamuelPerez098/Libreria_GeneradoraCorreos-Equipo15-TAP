@@ -204,7 +204,7 @@ Inicializa todos los elementos gráficos de la ventana.
 > `JDateChooser` proviene de la librería externa `com.toedter.calendar`, así que debe estar agregada en el proyecto para que compile correctamente.
 
  
-### ══════════════════════════════════════════════════════════════════════════════
+### ════════════════════════════════════════════════════════════════════════
 
 
 

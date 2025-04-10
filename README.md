@@ -46,15 +46,16 @@ public Registro(String nombreCompleto, String apellidoPaterno, String apellidoMa
 Este constructor crea un nuevo objeto de tipo Registro, que representa a un usuario con sus datos personales y académicos.
 
  **Parámetros**
-nombreCompleto: Nombre completo del usuario (puede incluir segundo nombre).
+ 
+`nombreCompleto:` Nombre completo del usuario (puede incluir segundo nombre).
 
-apellidoPaterno: Apellido paterno del usuario.
+`apellidoPaterno:` Apellido paterno del usuario.
 
-apellidoMaterno: Apellido materno del usuario.
+`apellidoMaterno:` Apellido materno del usuario.
 
-fechaNacimiento: Fecha de nacimiento en formato YYYYMMDD.
+`fechaNacimiento:` Fecha de nacimiento en formato YYYYMMDD.
 
-institucion: Nombre de la institución educativa o empresa.
+`institucion`: Nombre de la institución educativa o empresa.
 
 ### ┣▇ Validaciones(del constructor):
 

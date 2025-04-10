@@ -114,6 +114,98 @@ El campo correo se inicializa como cadena vacía, será generado por la clase Ge
 
 
 ### ═══════════════════════════════════════════════════════════════════════
+### **┣▇ CLASE Prueba**
+
+La clase Prueba representa la interfaz gráfica (GUI) de la aplicación para registrar usuarios y generar correos electrónicos automáticamente. Utiliza la librería Swing para crear la ventana y los componentes de entrada/salida.
+
+### ┣▇ Imports:
+
+```java
+import Metodos.GeneradorCorreo;
+import Metodos.Registro;
+```
+Campos de texto: Nombretxt, ApellidoPtxt, ApellidoMtxt, Dominiotxt
+
+Selector de fecha: Fecha (componente JDateChooser)
+
+Botones: generar, ver
+
+Etiquetas para cada campo
+
+### ┣▇ Constructor:
+
+```java
+public Prueba() {
+    initComponents();
+}
+```
+Inicializa todos los elementos gráficos de la ventana.
+
+### ┣▇ Metodos:
+**`private void generarActionPerformed(java.awt.event.ActionEvent evt) {
+`**
+ *  Toma los datos ingresados por el usuario desde la interfaz gráfica:
+    - Nombre
+    - Apellido Paterno
+    - Apellido Materno
+    - Fecha de nacimiento (seleccionada con un calendario)
+    - Dominio/institución
+ 
+ *  Convierte la fecha seleccionada al formato "yyyyMMdd".
+ 
+ *  Valida que la fecha no sea nula. Si lo es, lanza un mensaje de error.
+ 
+ * Llama al método `registrarUsuario()` de la clase `GeneradorCorreo`, que:
+     - Valida los campos
+     - Crea un registro
+     - Genera un correo electrónico único
+ 
+ *  Muestra una notificación con `JOptionPane` indicando éxito o error.
+
+**`private void verActionPerformed(java.awt.event.ActionEvent evt) {`**
+
+ * Controlador de eventos para el botón "Ver".
+ 
+ *  Recorre la lista estática de registros (`GeneradorCorreo.registros`)
+ *  Extrae cada correo generado y los concatena en un `StringBuilder`
+ *  Muestra los correos en una ventana emergente usando `JOptionPane`
+ 
+ * Útil para visualizar todos los correos registrados hasta el momento.
+ 
+
+**`main()`**
+
+ * Punto de entrada principal de la aplicación con interfaz gráfica (`JFrame`).
+ 
+ * Establece el "Look and Feel" Nimbus si está disponible, para una mejor apariencia.
+ 
+ * Crea una nueva instancia de la clase `Prueba` y la hace visible:
+
+ *     new Prueba().setVisible(true);
+ 
+    * Permite que el programa inicie con la ventana gráfica lista para recibir datos del usuario.
+
+
+
+    ### Componentes usados en la clase `Prueba`**
+
+| Componente Swing                     | Variable            | Propósito / Uso principal                          |
+|-------------------------------------|---------------------|----------------------------------------------------|
+| `javax.swing.JTextField`            | `Nombretxt`         | Campo para ingresar el nombre completo             |
+| `javax.swing.JTextField`            | `ApellidoPtxt`      | Campo para el apellido paterno                     |
+| `javax.swing.JTextField`            | `ApellidoMtxt`      | Campo para el apellido materno                     |
+| `javax.swing.JTextField`            | `Dominiotxt`        | Campo para el dominio o institución                |
+| `com.toedter.calendar.JDateChooser` | `Fecha`             | Selector de fecha de nacimiento                    |
+| `javax.swing.JLabel`                | `jLabel1` a `jLabel5` | Etiquetas descriptivas para los campos            |
+| `javax.swing.JButton`              | `generar`           | Botón que ejecuta el registro y generación de correo |
+| `javax.swing.JButton`              | `ver`               | Botón que muestra los correos generados           |
+| `javax.swing.JOptionPane`          | *(no tiene variable)* | Muestra mensajes de información o error           |
+
+> `JDateChooser` proviene de la librería externa `com.toedter.calendar`, así que debe estar agregada en el proyecto para que compile correctamente.
+
+ 
+### ══════════════════════════════════════════════════════════════════════════════
+
 
 
 

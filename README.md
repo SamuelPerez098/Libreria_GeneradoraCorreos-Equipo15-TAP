@@ -238,13 +238,13 @@ Nombraras a tu nuevo proyecto como gustes (no afecta nada)
 
 Una vez creado vas a  dirigirte a la opcion de **Libraries** donde daras un click derecho sobre ella y seleccionaras **Add JAR/Folder...**
 
-### PASO 4
+### PASO 5
 ![Image](https://github.com/user-attachments/assets/ad1cb520-9642-404d-b396-5a17be64fd0e)
 
 ahora solo queda buscar la carpeta de ubicacion de la descarga de nuestra libreria, que terminara con su importacion con el boton de **Open**
 
 
-### PASO 4
+### PASO 6
 
 ![Image](https://github.com/user-attachments/assets/d33ce73d-bb01-4b64-b4fe-cd0dba753103)
 
@@ -252,6 +252,11 @@ Verificaras que la libreria se importo correctamente
 
 ![Image](https://github.com/user-attachments/assets/2fa1d356-2492-4378-9049-75824b95b301)
 
+
+### ADVERTENCIA
+
+**NUESTRA LIBRERRIA FUNCIONA EN CONJUNTO CON JCALENDAR**
+Los métodos pueden ser usados en cualquier situación , pero si quieres usar la característica de la generación por fechas de nacimientos también tendrás que implementar la librería de Jcalendar para su correcto funcionamiento  
 
 
 ### ═══════════════════════════════════════════════════════════════════════
